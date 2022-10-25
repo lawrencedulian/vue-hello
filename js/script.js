@@ -7,11 +7,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-           message: "Hello classe 73!",
-           userName: "Alberto",
-           userAge: 25,  
-           fruit: "arancia",
-           titleClass: "green bg-yellow"  
+           message: "Ciao! Questo è il mio primo scipt con Vue"
         }
     }
 }).mount("#app");
