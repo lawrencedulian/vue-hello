@@ -7,7 +7,10 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-           message: "Ciao! Questo è il mio primo scipt con Vue"
+           message: "Ciao! Questo è il mio primo scipt con Vue",
+
+           imageUrl:"https://picsum.photos/200/300"
+
         }
     }
 }).mount("#app");
